@@ -9,8 +9,6 @@ var p = document.createElement('p');
 $("button").click(function() {
   var value = $("input").val();
   previous.push(value);
-  console.log(previous);
-  console.log(rand);
   if(value) {
     guesses--;
     $("input").val("");
